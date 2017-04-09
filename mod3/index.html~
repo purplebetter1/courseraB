@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang = "eng">
+	<head>
+		<meta charset = "utf-8">	
+		<meta http-equiv="X-UA-Compatible">
+		<meta name = "viewport" content = "width=device-width, initial-scale=1">
+		
+		<title>Assignment 3</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel= "stylesheet" href= "css/styles.css">
+
+	<script src= "js/jquery.js"></script>
+		<script src= "js/bootstrap.min.js"></script>
+		<script src= "js/script.js"></script>
+	
+	</head>
+	<body>
+	<header>
+
+	<!--start navbar -->
+	<nav class = "navbar navbar-default">
+	 <div class = "container-fluid">
+	  <div class = "navbar-header">
+		<a class="navbar-brand" href ="#">Food, LLC</a>
+
+	
+	 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav"
+            aria-expanded="false">
+	     <span class="sr-only">Toggle navigation</span>
+	     <span class="icon-bar"></span>
+	     <span class="icon-bar"></span>
+   	     <span class="icon-bar"></span>
+	</button>
+	</div><!--close navbar-header -->
+	
+	<div id="collapsable-nav" class="collapse navbar-collapse">
+	<div class="visible-xs">
+	<div id="collapsable-nav-nav-list">
+	<ul id="nav-list" class="navbar-nav navbar-right">
+	  <li><a href="#chicken"><span>Chicken</span></a></li>
+ 
+	  <li><a href="#beef"><span>Beef</span></a></li>
+          <li><a href="#sushi"><span>Sushi</span></a></li>
+
+
+	</ul>
+	</div>
+	</div>
+	</div><!--close collapsable-nav -->
+
+	
+	</div> <!--close container-fluid -->
+	</nav>
+	</header>
+	
+	<h1 class= "text-center">Our Menu</h1>
+	<div id = "main-content" class="container-fluid">
+	
+	<div class="row">
+	
+	<div class= "col-md-4 col-sm-6 col-xs-12">
+	<section><h3 id = "chicken">Chicken</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas imperdiet, lacus quis lacinia pretium, leo est tincidunt risus, non iaculis risus erat non massa. Maecenas mollis vitae nulla sit amet tincidunt. Vivamus semper rhoncus neque non pulvinar. Praesent vulputate libero vitae odio dignissim, eget hendrerit orci vestibulum. Nullam quis tellus ut lectus hendrerit suscipit sed eget ex. Quisque vel tellus et ipsum eleifend ullamcorper. Aliquam erat volutpat. Nunc convallis, velit quis placerat semper, magna metus porttitor nisl, quis rhoncus nisl quam quis risus. Aenean commodo suscipit vehicula. Nulla volutpat ex eros, id rhoncus elit tristique sed. 
+
+In fermentum tortor tristique, pharetra tellus ut, facilisis diam. Nunc et euismod sapien. Proin aliquam leo et maximus feugiat. Donec orci leo, ullamcorper vitae risus lobortis, suscipit vehicula lectus. Vivamus in hendrerit nibh, at imperdiet orci. Quisque in quam quis odio sagittis fermentum. Aliquam erat volutpat. Ut ultricies, eros ut convallis vehicula, odio felis maximus ante, ac consequat leo ante quis ante. Nam metus tortor, accumsan sit amet fringilla et, facilisis a mi. Suspendisse potenti. Fusce vestibulum ex libero, at tempor augue vulputate mollis. Duis pharetra orci arcu, ac egestas turpis maximus vel. Pellentesque ac condimentum sapien. 
+
+Pellentesque sollicitudin varius ipsum, tempus varius nunc. Aenean vitae augue tortor. Cras massa leo, volutpat ac diam in, viverra efficitur nulla. Pellentesque non scelerisque nulla. Pellentesque non posuere dolor. Pellentesque lacinia quis lectus facilisis accumsan. Fusce posuere, ante eget ultrices molestie, sem felis sollicitudin elit, non volutpat risus ex ut nulla. Fusce rutrum diam eros, non mattis augue posuere ultrices. Fusce quis enim urna. 
+
+Mauris maximus velit sit amet finibus pharetra. Etiam ultrices pellentesque orci, id venenatis lacus pharetra in. Aliquam tincidunt gravida dui, eu feugiat turpis viverra eget. Vivamus erat urna, tempus in placerat ac, aliquam quis libero. Sed at luctus libero, sed suscipit odio. In metus ex, rhoncus nec euismod et, dapibus ac arcu. Fusce justo ipsum, condimentum condimentum turpis at, molestie tempus risus. Mauris eget neque magna. Suspendisse eget nunc malesuada, laoreet nisi et, pulvinar velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed dapibus bibendum augue. <span><a href="#chicken">Back to top</a></span>
+
+
+
+ 
+</section>
+	</div>
+
+
+
+
+
+ 
+
+
+
+
+	<div class= "col-md-4 col-sm-6 col-xs-12">
+	<section><h3 id = "beef">Beef</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas imperdiet, lacus quis lacinia pretium, leo est tincidunt risus, non iaculis risus erat non massa. Maecenas mollis vitae nulla sit amet tincidunt. Vivamus semper rhoncus neque non pulvinar. Praesent vulputate libero vitae odio dignissim, eget hendrerit orci vestibulum. Nullam quis tellus ut lectus hendrerit suscipit sed eget ex. Quisque vel tellus et ipsum eleifend ullamcorper. Aliquam erat volutpat. Nunc convallis, velit quis placerat semper, magna metus porttitor nisl, quis rhoncus nisl quam quis risus. Aenean commodo suscipit vehicula. Nulla volutpat ex eros, id rhoncus elit tristique sed. 
+
+In fermentum tortor tristique, pharetra tellus ut, facilisis diam. Nunc et euismod sapien. Proin aliquam leo et maximus feugiat. Donec orci leo, ullamcorper vitae risus lobortis, suscipit vehicula lectus. Vivamus in hendrerit nibh, at imperdiet orci. Quisque in quam quis odio sagittis fermentum. Aliquam erat volutpat. Ut ultricies, eros ut convallis vehicula, odio felis maximus ante, ac consequat leo ante quis ante. Nam metus tortor, accumsan sit amet fringilla et, facilisis a mi. Suspendisse potenti. Fusce vestibulum ex libero, at tempor augue vulputate mollis. Duis pharetra orci arcu, ac egestas turpis maximus vel. Pellentesque ac condimentum sapien. 
+
+Pellentesque sollicitudin varius ipsum, tempus varius nunc. Aenean vitae augue tortor. Cras massa leo, volutpat ac diam in, viverra efficitur nulla. Pellentesque non scelerisque nulla. Pellentesque non posuere dolor. Pellentesque lacinia quis lectus facilisis accumsan. Fusce posuere, ante eget ultrices molestie, sem felis sollicitudin elit, non volutpat risus ex ut nulla. Fusce rutrum diam eros, non mattis augue posuere ultrices. Fusce quis enim urna. 
+
+Mauris maximus velit sit amet finibus pharetra. Etiam ultrices pellentesque orci, id venenatis lacus pharetra in. Aliquam tincidunt gravida dui, eu feugiat turpis viverra eget. Vivamus erat urna, tempus in placerat ac, aliquam quis libero. Sed at luctus libero, sed suscipit odio. In metus ex, rhoncus nec euismod et, dapibus ac arcu. Fusce justo ipsum, condimentum condimentum turpis at, molestie tempus risus. Mauris eget neque magna. Suspendisse eget nunc malesuada, laoreet nisi et, pulvinar velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed dapibus bibendum augue <span><a href="#beef">Back to top</a></span>
+ 
+
+
+ 
+</section>
+	</div>
+
+
+	
+	<div class= "col-md-4 col-sm-12 col-xs-12">
+	<section><h3 id = "sushi">Sushi</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas imperdiet, lacus quis lacinia pretium, leo est tincidunt risus, non iaculis risus erat non massa. Maecenas mollis vitae nulla sit amet tincidunt. Vivamus semper rhoncus neque non pulvinar. Praesent vulputate libero vitae odio dignissim, eget hendrerit orci vestibulum. Nullam quis tellus ut lectus hendrerit suscipit sed eget ex. Quisque vel tellus et ipsum eleifend ullamcorper. Aliquam erat volutpat. Nunc convallis, velit quis placerat semper, magna metus porttitor nisl, quis rhoncus nisl quam quis risus. Aenean commodo suscipit vehicula. Nulla volutpat ex eros, id rhoncus elit tristique sed. 
+
+In fermentum tortor tristique, pharetra tellus ut, facilisis diam. Nunc et euismod sapien. Proin aliquam leo et maximus feugiat. Donec orci leo, ullamcorper vitae risus lobortis, suscipit vehicula lectus. Vivamus in hendrerit nibh, at imperdiet orci. Quisque in quam quis odio sagittis fermentum. Aliquam erat volutpat. Ut ultricies, eros ut convallis vehicula, odio felis maximus ante, ac consequat leo ante quis ante. Nam metus tortor, accumsan sit amet fringilla et, facilisis a mi. Suspendisse potenti. Fusce vestibulum ex libero, at tempor augue vulputate mollis. Duis pharetra orci arcu, ac egestas turpis maximus vel. Pellentesque ac condimentum sapien. 
+
+Pellentesque sollicitudin varius ipsum, tempus varius nunc. Aenean vitae augue tortor. Cras massa leo, volutpat ac diam in, viverra efficitur nulla. Pellentesque non scelerisque nulla. Pellentesque non posuere dolor. Pellentesque lacinia quis lectus facilisis accumsan. Fusce posuere, ante eget ultrices molestie, sem felis sollicitudin elit, non volutpat risus ex ut nulla. Fusce rutrum diam eros, non mattis augue posuere ultrices. Fusce quis enim urna. 
+
+Mauris maximus velit sit amet finibus pharetra. Etiam ultrices pellentesque orci, id venenatis lacus pharetra in. Aliquam tincidunt gravida dui, eu feugiat turpis viverra eget. Vivamus erat urna, tempus in placerat ac, aliquam quis libero. Sed at luctus libero, sed suscipit odio. In metus ex, rhoncus nec euismod et, dapibus ac arcu. Fusce justo ipsum, condimentum condimentum turpis at, molestie tempus risus. Mauris eget neque magna. Suspendisse eget nunc malesuada, laoreet nisi et, pulvinar velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed dapibus bibendum augue. <span><a href="#sushi">Back to top</a></span>
+ 
+
+
+ 
+</section>
+	</div>
+
+
+
+
+	</row>
+	</div><!--end of main content-->
+	
+	</body>
+</html>
